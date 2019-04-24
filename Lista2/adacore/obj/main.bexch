@@ -1,0 +1,23 @@
+[GENERATED OBJECT FILE]
+b__main.o
+[PROJECT FILES]
+C:\Users\karol\Desktop\SZQL\Semestr3\ADA\Lista2\lista2.gpr
+20190423162428
+[BOUND OBJECT FILES]
+C:\Users\karol\Desktop\SZQL\Semestr3\ADA\Lista2\obj\config.o
+C:\Users\karol\Desktop\SZQL\Semestr3\ADA\Lista2\obj\main.o
+[GENERATED SOURCE FILES]
+b__main.ads
+b__main.adb
+b__main.ali
+[RESULTING OPTIONS]
+-LC:\Users\karol\Desktop\SZQL\Semestr3\ADA\Lista2\obj\
+-LC:\Users\karol\Desktop\SZQL\Semestr3\ADA\Lista2\obj\
+-LC:/gnat/2018/lib/gcc/x86_64-pc-mingw32/7.3.1/adalib/
+-static
+-static-libgcc
+C:/gnat/2018/lib/gcc/x86_64-pc-mingw32/7.3.1/adalib/libgnarl.a
+C:/gnat/2018/lib/gcc/x86_64-pc-mingw32/7.3.1/adalib/libgnat.a
+-Xlinker
+--stack=0x200000,0x1000
+-mthreads
