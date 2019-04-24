@@ -39,7 +39,7 @@ procedure Main is
    Signs : Sign := ('+', '*');
 
    type TypeE is array (0 .. 1) of Unbounded_String;
-   TypesE : TypeE := (To_Unbounded_String("patient"), To_Unbounded_String("impatient"));
+   TypesE : TypeE := (To_Unbounded_String("patient"), To_Unbounded_String("inpatient"));
 
    EmployeesInfo : array (0 .. config.EMPLOYEES_AMOUNT-1) of Info;
 
@@ -354,7 +354,7 @@ procedure Main is
             Machine := chooseMultiMachine;
          end if;
 
-         if TypeE = "impatient" then
+         if TypeE = "inpatient" then
             Done := false;
             if task1.Operator = '+' then
               while not Done loop
