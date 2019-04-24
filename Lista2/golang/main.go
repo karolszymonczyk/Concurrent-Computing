@@ -63,7 +63,7 @@ type info struct {
 }
 
 var operands = [2]string{"+", "*"}
-var types = [2]string{"patient", "impatient"}
+var types = [2]string{"patient", "inpatient"}
 
 var mode int
 
@@ -363,7 +363,7 @@ func employee(id int, readsT chan *readTask, writesS chan *writeItem, multiMachi
 			machine = chooseMachine(multiMachines)
 		}
 
-		if typeE == "impatient" {
+		if typeE == "inpatient" {
 			done := false
 			for !done {
 				select {
